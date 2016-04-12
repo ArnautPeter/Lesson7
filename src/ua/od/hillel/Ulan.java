@@ -1,10 +1,15 @@
 package ua.od.hillel;
 
+import java.util.Scanner;
+
 public class Ulan {
 
     public static void main(String[] args) {
 
-        int matrixSize = 6;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input size: ");
+
+        int matrixSize = scanner.nextInt();
         int matrix[][] = new int[matrixSize][matrixSize];
         int i = matrixSize / 2;
         int j = matrixSize / 2;
