@@ -25,7 +25,7 @@ public class Ulan {
                     int tempStepDown = step;
                     int tempStepLeft = step;
                     while (tempStepDown > 0) {
-                        i++;
+                        i++; 
                         rezult++;
                         matrix[i][j] = rezult;
                         tempStepDown--;
