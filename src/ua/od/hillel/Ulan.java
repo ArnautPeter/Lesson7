@@ -7,8 +7,7 @@ public class Ulan {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Input size: ");
-
+        System.out.println("Input size: ");
         int matrixSize = scanner.nextInt();
         int matrix[][] = new int[matrixSize][matrixSize];
         int i = matrixSize / 2;
@@ -25,7 +24,7 @@ public class Ulan {
                     int tempStepDown = step;
                     int tempStepLeft = step;
                     while (tempStepDown > 0) {
-                        i++; 
+                        i++;
                         rezult++;
                         matrix[i][j] = rezult;
                         tempStepDown--;
